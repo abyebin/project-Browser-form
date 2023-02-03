@@ -80,6 +80,10 @@ const cpasswordError = document.querySelector('.confirm-password-error')
 
 cpassword.addEventListener('keyup',checkcPassword)
 function checkcPassword(){
+    if(password.value == ""){
+        cpasswordError.innerHTML = 'Enter Password above'
+        return false
+    }
     if(password.value != cpassword.value){
         cpasswordError.innerHTML = 'Password not Matching'
         return false
