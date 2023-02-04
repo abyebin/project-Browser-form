@@ -21,7 +21,7 @@
     min-width: 320px;
     padding: 20px;
     position: relative;
-    border-radius: 5%;
+    border-radius: 2%;
     box-shadow: 0px 0px 30px 2px rgba(255, 255, 255,0.3) ;
 }
 .fa-align-center{
@@ -59,7 +59,6 @@ color: green;
 span span{
     display: none;
     position: absolute;
-    background-color: rgb(210, 229, 229);
 }
 .input-div{
     position: relative;
@@ -95,4 +94,10 @@ span span{
 }
 .form .button:hover{
     background-color: rgb(171, 214, 200);
+}
+.success{
+    background-color: white;
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
 }

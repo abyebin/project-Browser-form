@@ -168,6 +168,13 @@ function validate(){
 
         return false
     }
+    // event.preventDefault()
+    // const main =  document.querySelector('main')
+    // const successScreen = document.createElement('div')
+    // successScreen.classList.add('success')
+    // main.appendChild(successScreen)
+
+    alert("Form Submitted Successfully")
     return true
 
 }
